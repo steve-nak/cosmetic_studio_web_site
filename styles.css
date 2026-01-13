@@ -8,11 +8,13 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
+    background-color: #A5D6D4;
+    min-height: 100vh;
 }
 
 /* Header Styles */
 header {
-    background-color: #2c3e50;
+    background-color: #1B5E20;
     color: #fff;
     padding: 1rem 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -33,7 +35,7 @@ header {
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #e74c3c;
+    color: #FF9500;
 }
 
 nav ul {
@@ -50,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #e74c3c;
+    color: #FF9500;
 }
 
 /* Main Content */
@@ -61,7 +63,7 @@ main {
 }
 
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #FF9500 0%, #FF6B35 100%);
     color: #fff;
     padding: 3rem;
     border-radius: 10px;
@@ -81,7 +83,7 @@ main {
 
 .btn {
     display: inline-block;
-    background-color: #e74c3c;
+    background-color: #27AE60;
     color: #fff;
     padding: 0.8rem 2rem;
     border-radius: 5px;
@@ -93,7 +95,7 @@ main {
 }
 
 .btn:hover {
-    background-color: #c0392b;
+    background-color: #1B5E20;
 }
 
 /* About Section */
@@ -108,7 +110,7 @@ main {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #2c3e50;
+    color: #1B5E20;
 }
 
 .about-content {
@@ -143,7 +145,7 @@ main {
 
 .stat h3 {
     font-size: 2rem;
-    color: #e74c3c;
+    color: #FF9500;
     margin-bottom: 0.5rem;
 }
 
@@ -160,7 +162,7 @@ main {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #2c3e50;
+    color: #1B5E20;
 }
 
 .links-grid {
@@ -170,7 +172,7 @@ main {
 }
 
 .link-card {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #FF9500 0%, #FF6B35 100%);
     padding: 2rem;
     border-radius: 8px;
     color: #fff;
@@ -204,7 +206,7 @@ main {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #2c3e50;
+    color: #1B5E20;
 }
 
 .services-grid {
@@ -228,7 +230,7 @@ main {
 }
 
 .service-card h3 {
-    color: #e74c3c;
+    color: #FF9500;
     margin-bottom: 1rem;
     font-size: 1.3rem;
 }
@@ -248,7 +250,7 @@ main {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #2c3e50;
+    color: #1B5E20;
 }
 
 .gallery-grid {
@@ -287,7 +289,7 @@ main {
 
 .contact-header h1 {
     font-size: 2rem;
-    color: #2c3e50;
+    color: #1B5E20;
     margin-bottom: 1rem;
 }
 
@@ -309,7 +311,7 @@ main {
 }
 
 .contact-info h2 {
-    color: #2c3e50;
+    color: #1B5E20;
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
 }
@@ -325,7 +327,7 @@ main {
 }
 
 .contact-item h3 {
-    color: #e74c3c;
+    color: #FF9500;
     margin-bottom: 0.5rem;
 }
 
@@ -341,7 +343,7 @@ main {
 }
 
 .contact-form h2 {
-    color: #2c3e50;
+    color: #1B5E20;
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
 }
@@ -353,7 +355,7 @@ main {
 .form-group label {
     display: block;
     margin-bottom: 0.5rem;
-    color: #2c3e50;
+    color: #1B5E20;
     font-weight: 500;
 }
 
@@ -371,8 +373,8 @@ main {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #e74c3c;
-    box-shadow: 0 0 5px rgba(231, 76, 60, 0.3);
+    border-color: #FF9500;
+    box-shadow: 0 0 5px rgba(255, 149, 0, 0.3);
 }
 
 .form-group textarea {
@@ -383,7 +385,7 @@ main {
 .form-group button {
     width: 100%;
     padding: 1rem;
-    background-color: #e74c3c;
+    background-color: #27AE60;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -394,12 +396,12 @@ main {
 }
 
 .form-group button:hover {
-    background-color: #c0392b;
+    background-color: #1B5E20;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #2c3e50;
+    background-color: #1B5E20;
     color: #fff;
     text-align: center;
     padding: 2rem 20px;
@@ -420,7 +422,7 @@ footer {
 }
 
 .footer-links a {
-    color: #e74c3c;
+    color: #FF9500;
     text-decoration: none;
     margin: 0 1rem;
     transition: color 0.3s ease;
@@ -431,7 +433,7 @@ footer {
 }
 
 .footer-bottom {
-    border-top: 1px solid #34495e;
+    border-top: 1px solid #0D3B1A;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
     font-size: 0.9rem;
